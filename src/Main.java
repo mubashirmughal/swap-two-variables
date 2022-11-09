@@ -10,7 +10,8 @@ public class Main {
         double b;
         System.out.println("Enter b :");
         b =sc.nextInt();
-
+        System.out.println("Before swapping a = " +a);
+        System.out.println("Before swapping a = " +b);
         a = a + b;
         b = a - b;
         a = a - b;
